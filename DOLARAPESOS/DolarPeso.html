@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dolar a Pesos</title>
+    <link rel="stylesheet"  href="Mon.css">
+</head>
+<body>
+    
+    
+     
+    <fieldset>   
+    <h1>CONVERTIDOR DE PESOS A DOLAR O DOLAR A PESOS </h1> 
+    <img id="icono"  src="dinero.jpg" alt="Icono">    
+    </fieldset>
+      
+      
+      <label for="dinero1">Dolar O Peso: </label>
+      <input type="number" id="Dinero1" oninput="calcularMoney()">
+
+      <label for="valorm">Valor Dolar o Peso: </label>
+      <input type="number" id="valorm" oninput="calcularMoney()">
+
+      <button id="calcular" onclick="calcularMoney()">Calcular</button>
+
+      <p id="Money">Valor: </p> 
+
+      <button id="limpiar" onclick="limpiarCampos()">Borrar</button>
+    
+
+    
+    <script src="Money.js" type="text/javascript"></script>
+
+</body>
+</html>
